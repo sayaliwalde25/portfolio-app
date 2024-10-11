@@ -1,0 +1,16 @@
+.resume {
+  background-image: var(--second-gradient);
+}
+.resume--container {
+  grid-template-columns: repeat(2, 1fr);
+  margin-top: 20px;
+}
+.resume--heading {
+  text-align: center;
+  font-size: var(--h4-font-size);
+  padding-bottom: 30px;
+}  
+.resume--heading,
+.resume--item {
+  border-bottom: 2px solid var(--border-color);
+}

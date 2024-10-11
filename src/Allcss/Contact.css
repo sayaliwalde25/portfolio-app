@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Grey+Qo&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Playwrite+AT:ital,wght@0,100..400;1,100..400&family=Wittgenstein:ital,wght@0,400..900;1,400..900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+DK+Uloopet:wght@100..400&display=swap");
+
+.contact{
+  position: relative;
+  min-height: 100vh;
+  padding: 50px 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;    
+  flex-direction: column;
+  background-color: var(--first-gradient);
+}  
+.contact .content{
+  max-width: 600px;
+  text-align: center;
+}
+span{  
+  font-family: "Playwrite DK Uloopet", cursive;
+}
+h2{
+  font-size: 36px;
+  font-weight: 500;
+}
+p{
+  font-weight: 500;
+}
+.container-con{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 30px;
+}
+.container-con .contactInfo{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+}
+.container-con .contactInfo .box{
+  position: relative;
+  padding: 20px 0;
+  display: flex; 
+}
+.container-con .contactInfo .box .icon{
+  min-width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 22px;
+}
+.container-con .contactInfo .box .text
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 300;
+}
+.container-con .contactInfo .box .text h3{
+  font-weight: 500;
+  color: var(--primary-color);
+}
+ 
+/* form in css */
+.contact{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* form{
+  max-width: 300px;
+  width: 100%;
+  background: var(--bg-color-alt);
+  padding: 25px 25px 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0, 0, .1);
+  color: var(--primary-color);
+  margin: 25px;
+} */
+h2{
+  font-size: 30px;
+  text-align: center;
+  color: var(--primary-color);
+}
+form .input-box{
+  margin-top: 20px;
+
+}
+.input-box .field{
+  height: 50px;
+  background: transparent;
+  outline: none;
+  border-radius: 30px;
+  padding: 15px;
+  font-size: 16px;
+  margin-top: 8px;
+  display: block;
+  /* color: black; */
+}
+.field {
+  border: 2px solid var(--title-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+
+}
+.field-message {
+  border: 2px solid var(--title-color);
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+
+}
+.input-box .field-message{
+  height: 100px;
+  width: 100%;
+  border-radius: 20px;
+  display: block;
+}
+form button {
+  margin-top: 10px;
+  margin-left: 50px;
+  width: 58%;
+  height: 50px;
+  background-color: #eac180;
+  color: black;
+  border: none;
+  border-radius: 6px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+  cursor: pointer;
+}
+button:hover {
+  background: var(--primary-color);
+}
+
+
